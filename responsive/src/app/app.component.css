@@ -64,7 +64,16 @@ a {
 	.header {
 		display: none;
 	}
-	.post_shair-btn{
+	.post_shair-btn {
 		float: right;
 	}
+}
+
+.pop-background {
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #2b272759;
 }
