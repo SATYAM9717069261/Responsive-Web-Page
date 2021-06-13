@@ -1,10 +1,12 @@
-*{
-font-family:IBM Plex Sans;
-font-size: 16px;
+* {
+	font-family: IBM Plex Sans;
+	font-size: 16px;
 }
-.brandname{
+
+.brandname {
 	font-size: 35px;
 }
+
 .search {
 	position: relative;
 	left: -2.7%;
@@ -17,7 +19,8 @@ font-size: 16px;
 	border-radius: 21px;
 	background-color: #F2F2F2;
 }
-.search-text{
+
+.search-text {
 	width: 296px;
 	height: 38px;
 	left: 590px;
@@ -25,15 +28,40 @@ font-size: 16px;
 	border: none;
 	background-color: #F2F2F2;
 }
-.banner{
-	position:relative;
+
+.banner {
+	position: relative;
 	background-image: url(https://s3-alpha-sig.figma.com/img/756e/302b/7d56a759ac56bc165f65c40094aba4e8?Expires=1624233600&Signature=Jx0IanUUrmyG0Tik8815PYk7zYtInLv7FvKHhtuZjUterZsBIEQl17nMp6Hye-PlncXZjWyqcZNoBm~~PEPcvlbsP0gT-1wL09-hMDWd~6fkr4uu1bX53EVMHrluKZVPYhb6nRlWs7MHit1Oyqyf7yfDjO9lVDXUF4oaCgh3bC5rnHmAM5FwzL7SlrOwlKRoUrgnIV9cC62nSFhYqg5OeuG0TW5C2CestxA3aHf1J1AV8MJXGvETMx4IRCz7C6nrXGbJVoGbhG777VDpbPlowceLhf5HSRetBneqvziABaQZmgcWiVfd8rrgH5-eCm2YLxFFlyhgIa2nNRQNJgBXrw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
 	min-width: 100%;
 	background-size: cover;
-	background-position:center;
+	background-position: center;
 	height: 500px;
 }
-a{
+
+a {
 	color: black;
 	text-decoration: none;
+}
+
+.card {
+	margin-top: 12px;
+}
+
+.row {
+	margin-top: 10px;
+}
+
+.body-btn {
+	font-weight: bold;
+	border: 0.7px solid #A9AEB8;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	color: rgb(228, 25, 25)
+}
+
+@media screen and (max-width: 800px) {
+	.header {
+		display: none;
+	}
 }
