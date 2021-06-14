@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'responsive';
+  login:string="none";
+  showlogin(){
+    console.log('display');
+    this.login="block";
+  }
+  close(){
+    this.login="none";
+  }
 }
